@@ -1,0 +1,19 @@
+# Local build and deployment outputs
+artifacts/
+reports/
+logs/
+tmp/
+
+# Secrets and local environment files
+.env
+.env.*
+!*.example
+!*.example.env
+config/environments/*.env
+!config/environments/*.example
+!config/environments/*.example.env
+
+# OS/editor noise
+.DS_Store
+*.swp
+*.swo
